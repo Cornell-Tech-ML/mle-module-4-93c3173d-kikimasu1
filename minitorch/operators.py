@@ -393,4 +393,3 @@ def prod(ls: Iterable[float]) -> float:
     func = reduce(mul, 1)
     return func(ls)
     # raise NotImplementedError("Need to implement for Task 0.3")
-
