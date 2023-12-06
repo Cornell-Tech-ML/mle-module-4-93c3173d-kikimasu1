@@ -367,4 +367,3 @@ def _tensor_matrix_multiply(
 
 
 tensor_matrix_multiply = njit(parallel=True, fastmath=True)(_tensor_matrix_multiply)
-
